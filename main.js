@@ -31,7 +31,7 @@ console.log(color(figlet.textSync('WHATSAPP BOT', {
 		width: 80,
 		whitespaceBreak: false
 	}), 'cyan'))
-console.log(color('[ CREATED BY Caliph91 ]'))
+console.log(color('[ CREATED BY Zenoxy ]'))
 if (opts.server) {
   require('./server')(caliph, process.env.PORT || opts.server == true ? 8080 : opts.server)
 } else {
